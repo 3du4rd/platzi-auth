@@ -9,8 +9,8 @@ const app = express();
 //app.use(bodyParser.json());
 app.use(express.json());
 //app.use(cors());
-const corsOptions = { origin: "http://example.com" };
-app.use(cors(corsOptions)); 
+//const corsOptions = { origin: "http://example.com" };
+//app.use(cors(corsOptions)); 
 
 app.post("/api/auth/token", function(req, res){
     const { email, username, name } = req.body;
