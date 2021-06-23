@@ -80,36 +80,6 @@ const playlistMocks = [
         },
         "type": "playlist",
         "uri": "spotify:playlist:20xtfgAWgrmH6GdoSWneFV"
-    },
-    {
-        "collaborative": false,
-        "description": "",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/46iUOuxcnF7PADY9OE22bk"
-        },
-        "href": "https://api.spotify.com/v1/playlists/46iUOuxcnF7PADY9OE22bk",
-        "id": "46iUOuxcnF7PADY9OE22bk",
-        "images": [],
-        "name": "Viaje",
-        "owner": {
-            "display_name": "Eduard Leandro Correa A.",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/user/3du4rd"
-            },
-            "href": "https://api.spotify.com/v1/users/3du4rd",
-            "id": "3du4rd",
-            "type": "user",
-            "uri": "spotify:user:3du4rd"
-        },
-        "primary_color": null,
-        "public": true,
-        "snapshot_id": "MSw2ODBlMGYxYzMxNjVjOWIxYjQ0MDNhZTliOWRjZDZkYzQ2MzQxODcz",
-        "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/46iUOuxcnF7PADY9OE22bk/tracks",
-            "total": 0
-        },
-        "type": "playlist",
-        "uri": "spotify:playlist:46iUOuxcnF7PADY9OE22bk"
     }
 ];
 
