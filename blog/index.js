@@ -72,7 +72,7 @@ function getUserPlaylists(accessToken, userId) {
 }
 
 // routes
-app.get("/", async function(req, res, next) {
+app.get('/', async function(req, res, next) {
   const { access_token: accessToken } = req.cookies;
 
   try {
@@ -87,7 +87,7 @@ app.get("/", async function(req, res, next) {
   }
 });
 
-app.get("/playlists", async function(req, res, next) {
+app.get('/playlists', async function(req, res, next) {
   
   const { access_token: accessToken } = req.cookies;
   if (!accessToken) {
