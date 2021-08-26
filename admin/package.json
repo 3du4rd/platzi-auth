@@ -19,6 +19,6 @@
     "next": "^7.0.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "semantic-ui-react": "^0.83.0"
+    "semantic-ui-react": "^0.88.2"
   }
 }
